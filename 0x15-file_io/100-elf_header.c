@@ -1,8 +1,11 @@
 #include "main.h"
 #include <elf.h>
+#include <stdio.h>
+#include <stdlib.h>
+
 int main(int argc, char *argv[])
 {
-	int fd;
+	int fd, i;
 	Elf32_Ehdr header;
 
 	if (argc != 2)
@@ -32,7 +35,7 @@ int main(int argc, char *argv[])
 		return (98);
 	}
 	printf("Magic: ");
-	for (int i = 0; i < EI_NIDENT; i++)
+	for (i = 0; i < EI_NIDENT; i++)
 	{
 		printf("%02x ", header.e_ident[i]);
 	}
