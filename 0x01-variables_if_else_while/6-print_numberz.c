@@ -1,17 +1,18 @@
 #include <stdio.h>
-
 /**
-* main - Prints numbers from 0 to 9.
+* main - entry point
 *
-* Return: Always 0 (Success)
+* Return: 0 on success
 */
+
 int main(void)
 {
-	int i;
+	int num = 48;
 
-	for (i = 48; i < 58; i++)
+	while (num >= 48 && num <= 57)
 	{
-		putchar(i);
+		putchar(num);
+		num++;
 	}
 	putchar('\n');
 	return (0);

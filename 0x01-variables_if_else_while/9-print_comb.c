@@ -1,21 +1,23 @@
 #include <stdio.h>
-
 /**
-* main - prints all possible combinations of single-digit numbers
-* Return: Always 0 (Success)
+* main - entry point
+*
+* Return: 0 on success
 */
+
 int main(void)
 {
-	int n;
+	int num = 48;
 
-	for (n = 48; n < 58; n++)
+	while (num >= 48 && num <= 57)
 	{
-		putchar(n);
-		if (n != 57)
+		putchar(num);
+		if (num != 57)
 		{
 			putchar(',');
 			putchar(' ');
 		}
+		num++;
 	}
 	putchar('\n');
 	return (0);

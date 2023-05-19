@@ -12,4 +12,3 @@ int main(void)
     print_square(0);
     return (0);
 }
-
