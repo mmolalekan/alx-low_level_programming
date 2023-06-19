@@ -1,4 +1,4 @@
-/*
+/**
 * add - adds two integers
 * @a: operand 1
 * @b: operand b
@@ -10,7 +10,7 @@ int add(int a, int b)
 	return (a + b);
 }
 
-/*
+/**
 * sub - computes the difference between two integers
 * @a: operand 1
 * @b: operand b
@@ -22,7 +22,7 @@ int sub(int a, int b)
 	return (a - b);
 }
 
-/*
+/**
 * mul - multiplies two integers
 * @a: operand 1
 * @b: operand b
@@ -34,7 +34,7 @@ int mul(int a, int b)
 	return (a * b);
 }
 
-/*
+/**
 * div - divides two integers
 * @a: operand 1
 * @b: operand b
@@ -46,7 +46,7 @@ int div(int a, int b)
 	return (a / b);
 }
 
-/*
+/**
 * mod - find the modulus of two integers
 * @a: operand 1
 * @b: operand b
